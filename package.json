@@ -1,0 +1,27 @@
+{
+  "name": "ogm",
+  "version": "0.0.0",
+  "description": "OGM for OrientDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OGM",
+    "Orient",
+    "OrientDB",
+    "Graph"
+  ],
+  "author": "Muddai",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^3.10.0",
+    "orientjs": "^2.0.0"
+  },
+  "devDependencies": {
+    "bluebird": "^2.9.32",
+    "chai": "^3.0.0",
+    "path": "^0.11.14"
+  }
+}
