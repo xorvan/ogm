@@ -1,6 +1,6 @@
 {
   "name": "ogm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OGM for OrientDB",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "Graph"
   ],
   "author": "Muddai",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "debug": "^2.2.0",
     "lodash": "^3.10.0",
@@ -23,5 +23,13 @@
     "bluebird": "^2.9.32",
     "chai": "^3.0.0",
     "path": "^0.11.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muddai/ogm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muddai/ogm/issues"
+  },
+  "homepage": "https://github.com/muddai/ogm#readme"
 }
