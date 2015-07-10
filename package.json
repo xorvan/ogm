@@ -1,10 +1,10 @@
 {
   "name": "ogm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "OGM for OrientDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test src/**.spec.js"
   },
   "keywords": [
     "OGM",
