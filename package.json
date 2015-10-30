@@ -1,6 +1,6 @@
 {
   "name": "ogm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "OGM for OrientDB",
   "main": "index.js",
   "scripts": {

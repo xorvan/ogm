@@ -65,13 +65,13 @@ console.log('Using database: ' + db.name);
 ### Defining simple model
 
 ```js
-@ogm.className("Person")
+@ogm.model("Person")
 class Person extends ogm.V {
 
-  @ogm.type(String)
+  @ogm.property(String)
   name = this.name;
- 
-  @ogm.type(Number)
+
+  @ogm.property(Number)
   age = this.age;
 }
 ```
@@ -105,6 +105,3 @@ var john = await Person.get('#1:1');
 
 
 ```
-
-
-

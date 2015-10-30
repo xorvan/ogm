@@ -50,7 +50,7 @@ export function isRid(q) {
 }
 
 // Decorators
-export function type (typeName) {
+export function property (typeName) {
   return function(target, name, descriptor) {
 
     debug("Registering prop", typeName, name, target, descriptor);
@@ -68,7 +68,7 @@ export function type (typeName) {
 
 }
 
-export function className(name) {
+export function model(name) {
   return function(target) {
 
     debug("Registering class", name, target);
@@ -84,5 +84,5 @@ export function className(name) {
 
 }
 
-className("V")(V);
-className("E")(E);
+model("V")(V);
+model("E")(E);
