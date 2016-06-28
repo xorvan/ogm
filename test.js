@@ -1,7 +1,5 @@
 // test bootstrap
 
-require('babel/register');
-
 var Promise = require('bluebird'),
     path = require('path');
 
@@ -10,18 +8,16 @@ Promise.longStackTraces();
 global.expect = require('chai').expect;
 
 
-global.TEST_SERVER_CONFIG = require('./test-server.json');
-
 global.LIB_ROOT = path.resolve(__dirname, 'src');
 
 global.LIB = require(LIB_ROOT);
 
 
 global.TEST_SERVER = new LIB.connect({
-  host: TEST_SERVER_CONFIG.host,
-  port: TEST_SERVER_CONFIG.port,
-  username: TEST_SERVER_CONFIG.username,
-  password: TEST_SERVER_CONFIG.password,
+  host: 'orient',
+  port: process.env.ORIENT_PORT_2424_TCP_PORT || '2424',
+  username: 'root',
+  password: process.env.ORIENTDB_ROOT_PASSWORD,
   transport: 'binary'
 });
 

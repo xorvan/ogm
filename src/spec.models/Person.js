@@ -2,12 +2,12 @@
 
 import * as ogm from "../";
 
-@ogm.className("Person")
+@ogm.model("Person")
 export default class Person extends ogm.V {
 
-  @ogm.type(String)
+  @ogm.property(String)
   name = this.name;
- 
-  @ogm.type(Number)
+
+  @ogm.property(Number)
   age = this.age;
 }

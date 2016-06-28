@@ -3,16 +3,16 @@
 import * as ogm from "../";
 import {Person} from "./";
 
-@ogm.className("HasVassal")
+@ogm.model("HasVassal")
 export default class HasVassal extends ogm.Edge {
 
   // @ogm.type(Person)
   // in = this.in;
- 
+
   // @ogm.type(Person)
   // out = this.out;
-  
-  @ogm.type(Number)
+
+  @ogm.property(Number)
   control = this.control;
 
 }

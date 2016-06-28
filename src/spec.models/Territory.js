@@ -2,12 +2,12 @@
 
 import * as ogm from "../";
 
-@ogm.className("Territory")
+@ogm.model("Territory")
 export default class Territory extends ogm.V {
 
-  @ogm.type(String)
+  @ogm.property(String)
   name = this.name;
- 
-  @ogm.type(Number)
+
+  @ogm.property(Number)
   area = this.area;
 }

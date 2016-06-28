@@ -3,22 +3,22 @@
 import * as ogm from "../";
 import {Person, Territory} from "./";
 
-@ogm.className("OwnsTerritory")
+@ogm.model("OwnsTerritory")
 export default class OwnsTerritory extends ogm.Edge {
 
   // @ogm.type(Person)
   // in = this.in;
- 
+
   // @ogm.type(Territory)
   // out = this.out;
 
-  @ogm.type(Date)
+  @ogm.property(Date)
   from = this.from;
 
-  @ogm.type(Date)
+  @ogm.property(Date)
   to = this.to;
 
-  @ogm.type(Number)
+  @ogm.property(Number)
   influence = this.influence;
 
 }

@@ -1,0 +1,12 @@
+ogm:
+  build: .
+  links:
+    - orient
+  command: npm run compile
+  environment:
+    - ORIENTDB_ROOT_PASSWORD=bBs3cured#
+
+orient:
+  image: joaodubas/orientdb
+  environment:
+    - ORIENTDB_ROOT_PASSWORD=bBs3cured#
