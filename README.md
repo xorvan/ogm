@@ -1,6 +1,6 @@
 # OrientJS OGM for Node.JS
 
-[![Build Status](https://drone.io/github.com/xorvan/ogm/status.png)](https://drone.io/github.com/xorvan/ogm/latest)
+[![Build Status](https://travis-ci.org/xorvan/ogm.svg?branch=master)](https://travis-ci.org/xorvan/ogm)
 [![npm version](https://badge.fury.io/js/ogm.svg)](https://badge.fury.io/js/ogm)
 [![Stories in Ready](https://badge.waffle.io/xorvan/ogm.svg?label=ready&title=Ready)](http://waffle.io/xorvan/ogm)
 
